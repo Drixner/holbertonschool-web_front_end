@@ -102,6 +102,7 @@ ul.row {
     width: 50%;
 }
 
+
 /* Select all classes that start with col- */
 [class^="col-"] {
     float: left;
@@ -160,6 +161,10 @@ right and left are 1rem */
     color: var(--nav-item-link-hover)
 }
 
+.social-link {
+    display: block;
+}
+
 /* Style the social-link class that also selects the svg children */
 .social-link > svg {
     fill: var(--text-color);
@@ -214,7 +219,7 @@ right and left are 1rem */
     text-align: right;
 }
 
-.footer-address {
+.footer-address{
     color: var(--text-color);
 }
 
