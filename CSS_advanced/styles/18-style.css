@@ -121,8 +121,9 @@ right and left are 1rem */
     display: block;
     padding: 0.5rem 1rem;
 }
+
 .nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
+    color: var(--nav-item-link-hover)
 }
 
 :root {
@@ -153,7 +154,7 @@ right and left are 1rem */
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
-    --footer-padding: 5rem 0 1rem
+    --footer-padding: 5rem 0 1rem;
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
@@ -161,7 +162,6 @@ right and left are 1rem */
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0; 
     --nav-item-link-hover: var(--color-primary);
-
 }
 
 /* pad all 4 sides of the selected element with footer-padding */
