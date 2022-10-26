@@ -19,6 +19,7 @@ body {
     line-height: var(--line-height-base);
 }
 
+/*-------------Links section------------------ */
 a:link {
     color: var(--text-color);
     text-decoration: none;
@@ -28,6 +29,7 @@ a:visited {
     font-style: italic;
 }
 
+/* The :hover selector is used to select elements when you mouse over them. */
 a:hover {
     text-decoration: underline;
 }
@@ -51,6 +53,7 @@ a:active {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
+}
 
 .visually-hidden {
     display: none;
