@@ -190,7 +190,7 @@ right and left are 1rem */
     color: var(--text-color);
 }
 
-.footer.ul {
+.footer ul {
     text-align: right;
 }
 
